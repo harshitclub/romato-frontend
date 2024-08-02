@@ -1,0 +1,66 @@
+.signup {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(246, 232, 235);
+  padding: 5rem 0;
+}
+
+.signupContainer {
+  background-color: #fba5a4;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  width: 40%;
+}
+
+.signupContainer h1 {
+  font-size: 2rem;
+  color: #44413c;
+  font-weight: 600;
+  border-bottom: 1px solid #44413c;
+  padding: 0 0 1rem 0;
+  margin: 0 0 1rem 0;
+}
+
+.homeLink {
+  margin: 0 0 1rem 0;
+}
+
+.homeLink a {
+  color: #44413c;
+}
+
+.signupForm form h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #44413c;
+  margin: 0 0 0.5rem 0;
+}
+
+.signupForm form h3 span {
+  color: red;
+}
+
+.signupForm form input {
+  outline: none;
+  border-radius: 0.3rem;
+  border: none;
+  padding: 1rem 0.5rem;
+  font-size: 1rem;
+  width: 100%;
+  margin: 0 0 1rem 0;
+}
+
+.signupForm form button {
+  width: 100%;
+  background-color: #44413c;
+  color: white;
+  padding: 1rem;
+  border: 1px solid #44413c;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin: 0 0 1rem 0;
+}
